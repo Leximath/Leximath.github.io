@@ -5,6 +5,10 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://leximath.github.io/2015/index.html</loc>
+  <lastmod>2015-05-23</lastmod>
+ </url>
+ <url>
   <loc>https://leximath.github.io/archive.html</loc>
   <lastmod>2015-05-23</lastmod>
  </url>
@@ -13,7 +17,19 @@
   <lastmod>2015-05-23</lastmod>
  </url>
  <url>
+  <loc>https://leximath.github.io/categories/cat_noticias.html</loc>
+  <lastmod>2015-05-23</lastmod>
+ </url>
+ <url>
   <loc>https://leximath.github.io/categories/index.html</loc>
+  <lastmod>2015-05-23</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/categories/site.html</loc>
+  <lastmod>2015-05-23</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/en/2015/index.html</loc>
   <lastmod>2015-05-23</lastmod>
  </url>
  <url>
@@ -25,7 +41,15 @@
   <lastmod>2015-05-23</lastmod>
  </url>
  <url>
+  <loc>https://leximath.github.io/en/categories/cat_noticias.html</loc>
+  <lastmod>2015-05-23</lastmod>
+ </url>
+ <url>
   <loc>https://leximath.github.io/en/categories/index.html</loc>
+  <lastmod>2015-05-23</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/en/categories/site.html</loc>
   <lastmod>2015-05-23</lastmod>
  </url>
  <url>
@@ -35,6 +59,11 @@
  <url>
   <loc>https://leximath.github.io/en/index.html</loc>
   <lastmod>2015-05-23</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/en/posts/new-site.html</loc>
+  <lastmod>2015-05-23</lastmod>
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://leximath.github.io/posts/new-site.html" />
  </url>
  <url>
   <loc>https://leximath.github.io/en/stories/index.html</loc>
@@ -52,6 +81,11 @@
  <url>
   <loc>https://leximath.github.io/listings/index.html</loc>
   <lastmod>2015-05-23</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/posts/new-site.html</loc>
+  <lastmod>2015-05-23</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://leximath.github.io/en/posts/new-site.html" />
  </url>
  <url>
   <loc>https://leximath.github.io/stories/home.html</loc>

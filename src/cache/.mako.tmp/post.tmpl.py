@@ -4,7 +4,7 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1432410820.1201138
+_modified_time = 1432411061.7974212
 _enable_loop = True
 _template_filename = 'themes/zen/templates/post.tmpl'
 _template_uri = 'post.tmpl'
@@ -22,11 +22,11 @@ def _mako_generate_namespaces(context):
     ns = runtime.TemplateNamespace('comments', context._clean_inheritance_tokens(), templateuri='comments_helper.tmpl', callables=None,  calling_uri=_template_uri)
     context.namespaces[(__name__, 'comments')] = ns
 
-    ns = runtime.TemplateNamespace('arusahni', context._clean_inheritance_tokens(), templateuri='arusahni_helper.tmpl', callables=None,  calling_uri=_template_uri)
-    context.namespaces[(__name__, 'arusahni')] = ns
-
     ns = runtime.TemplateNamespace('helper', context._clean_inheritance_tokens(), templateuri='post_helper.tmpl', callables=None,  calling_uri=_template_uri)
     context.namespaces[(__name__, 'helper')] = ns
+
+    ns = runtime.TemplateNamespace('arusahni', context._clean_inheritance_tokens(), templateuri='arusahni_helper.tmpl', callables=None,  calling_uri=_template_uri)
+    context.namespaces[(__name__, 'arusahni')] = ns
 
 def _mako_inherit(template, context):
     _mako_generate_namespaces(context)
@@ -37,17 +37,17 @@ def render_body(context,**pageargs):
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         _import_ns = {}
         _mako_get_namespace(context, 'arusahni')._populate(_import_ns, ['*'])
+        helper = _mako_get_namespace(context, 'helper')
+        def content():
+            return render_content(context._locals(__M_locals))
+        parent = _import_ns.get('parent', context.get('parent', UNDEFINED))
+        site_has_comments = _import_ns.get('site_has_comments', context.get('site_has_comments', UNDEFINED))
         def extra_head():
             return render_extra_head(context._locals(__M_locals))
         comments = _mako_get_namespace(context, 'comments')
+        arusahni = _mako_get_namespace(context, 'arusahni')
         post = _import_ns.get('post', context.get('post', UNDEFINED))
         date_format = _import_ns.get('date_format', context.get('date_format', UNDEFINED))
-        parent = _import_ns.get('parent', context.get('parent', UNDEFINED))
-        def content():
-            return render_content(context._locals(__M_locals))
-        site_has_comments = _import_ns.get('site_has_comments', context.get('site_has_comments', UNDEFINED))
-        arusahni = _mako_get_namespace(context, 'arusahni')
-        helper = _mako_get_namespace(context, 'helper')
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -73,11 +73,11 @@ def render_extra_head(context,**pageargs):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'arusahni')._populate(_import_ns, ['*'])
+        post = _import_ns.get('post', context.get('post', UNDEFINED))
         def extra_head():
             return render_extra_head(context)
-        parent = _import_ns.get('parent', context.get('parent', UNDEFINED))
-        post = _import_ns.get('post', context.get('post', UNDEFINED))
         helper = _mako_get_namespace(context, 'helper')
+        parent = _import_ns.get('parent', context.get('parent', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n    ')
         __M_writer(str(parent.extra_head()))
@@ -105,13 +105,13 @@ def render_content(context,**pageargs):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'arusahni')._populate(_import_ns, ['*'])
-        comments = _mako_get_namespace(context, 'comments')
-        def content():
-            return render_content(context)
         site_has_comments = _import_ns.get('site_has_comments', context.get('site_has_comments', UNDEFINED))
+        comments = _mako_get_namespace(context, 'comments')
         arusahni = _mako_get_namespace(context, 'arusahni')
         post = _import_ns.get('post', context.get('post', UNDEFINED))
         date_format = _import_ns.get('date_format', context.get('date_format', UNDEFINED))
+        def content():
+            return render_content(context)
         helper = _mako_get_namespace(context, 'helper')
         __M_writer = context.writer()
         __M_writer('\n    <div class="post">\n    ')
@@ -147,6 +147,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"128": 27, "129": 27, "130": 30, "131": 30, "132": 32, "133": 32, "134": 33, "135": 34, "136": 34, "137": 34, "138": 36, "139": 36, "140": 36, "141": 38, "142": 38, "148": 142, "22": 4, "25": 2, "28": 3, "34": 0, "52": 2, "53": 3, "54": 4, "55": 5, "60": 16, "65": 39, "71": 7, "82": 7, "83": 8, "84": 8, "85": 9, "86": 10, "87": 10, "88": 10, "89": 12, "90": 12, "91": 12, "92": 13, "93": 13, "94": 14, "95": 14, "96": 15, "97": 15, "103": 18, "117": 18, "118": 20, "119": 20, "120": 23, "121": 23, "122": 23, "123": 23, "124": 24, "125": 24, "126": 25, "127": 25}, "uri": "post.tmpl", "filename": "themes/zen/templates/post.tmpl"}
+{"source_encoding": "utf-8", "filename": "themes/zen/templates/post.tmpl", "line_map": {"128": 27, "129": 27, "130": 30, "131": 30, "132": 32, "133": 32, "134": 33, "135": 34, "136": 34, "137": 34, "138": 36, "139": 36, "140": 36, "141": 38, "142": 38, "148": 142, "22": 4, "25": 3, "28": 2, "34": 0, "52": 2, "53": 3, "54": 4, "55": 5, "60": 16, "65": 39, "71": 7, "82": 7, "83": 8, "84": 8, "85": 9, "86": 10, "87": 10, "88": 10, "89": 12, "90": 12, "91": 12, "92": 13, "93": 13, "94": 14, "95": 14, "96": 15, "97": 15, "103": 18, "117": 18, "118": 20, "119": 20, "120": 23, "121": 23, "122": 23, "123": 23, "124": 24, "125": 24, "126": 25, "127": 25}, "uri": "post.tmpl"}
 __M_END_METADATA
 """

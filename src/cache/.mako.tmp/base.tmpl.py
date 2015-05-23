@@ -4,12 +4,12 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1432410719.2142668
+_modified_time = 1432410819.9246278
 _enable_loop = True
 _template_filename = 'themes/zen/templates/base.tmpl'
 _template_uri = 'base.tmpl'
 _source_encoding = 'utf-8'
-_exports = ['content', 'extra_head', 'extra_js']
+_exports = ['extra_head', 'extra_js', 'content']
 
 
 def _mako_get_namespace(context, name):
@@ -35,18 +35,18 @@ def render_body(context,**pageargs):
         _import_ns = {}
         _mako_get_namespace(context, 'footer')._populate(_import_ns, ['*'])
         _mako_get_namespace(context, 'arusahni')._populate(_import_ns, ['*'])
-        def content():
-            return render_content(context._locals(__M_locals))
-        set_locale = _import_ns.get('set_locale', context.get('set_locale', UNDEFINED))
-        arusahni = _mako_get_namespace(context, 'arusahni')
-        template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
+        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
         def extra_head():
             return render_extra_head(context._locals(__M_locals))
         footer = _mako_get_namespace(context, 'footer')
-        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
         body_end = _import_ns.get('body_end', context.get('body_end', UNDEFINED))
+        set_locale = _import_ns.get('set_locale', context.get('set_locale', UNDEFINED))
+        template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
         def extra_js():
             return render_extra_js(context._locals(__M_locals))
+        def content():
+            return render_content(context._locals(__M_locals))
+        arusahni = _mako_get_namespace(context, 'arusahni')
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -87,20 +87,6 @@ def render_body(context,**pageargs):
         context.caller_stack._pop_frame()
 
 
-def render_content(context,**pageargs):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        _import_ns = {}
-        _mako_get_namespace(context, 'footer')._populate(_import_ns, ['*'])
-        _mako_get_namespace(context, 'arusahni')._populate(_import_ns, ['*'])
-        def content():
-            return render_content(context)
-        __M_writer = context.writer()
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
 def render_extra_head(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
@@ -131,8 +117,22 @@ def render_extra_js(context,**pageargs):
         context.caller_stack._pop_frame()
 
 
+def render_content(context,**pageargs):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        _import_ns = {}
+        _mako_get_namespace(context, 'footer')._populate(_import_ns, ['*'])
+        _mako_get_namespace(context, 'arusahni')._populate(_import_ns, ['*'])
+        def content():
+            return render_content(context)
+        __M_writer = context.writer()
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
 """
 __M_BEGIN_METADATA
-{"line_map": {"64": 10, "65": 15, "66": 15, "128": 27, "71": 20, "72": 21, "73": 21, "74": 24, "75": 24, "76": 25, "77": 25, "78": 26, "79": 26, "84": 33, "22": 4, "25": 3, "90": 20, "28": 2, "31": 0, "134": 128, "104": 7, "113": 7, "51": 2, "52": 3, "53": 4, "54": 5, "55": 5, "56": 6, "57": 6, "119": 27, "62": 9, "63": 10}, "source_encoding": "utf-8", "filename": "themes/zen/templates/base.tmpl", "uri": "base.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"64": 10, "65": 15, "66": 15, "134": 120, "71": 20, "72": 21, "73": 21, "74": 24, "75": 24, "76": 25, "77": 25, "78": 26, "79": 26, "120": 20, "84": 33, "22": 4, "25": 3, "90": 7, "28": 2, "31": 0, "99": 7, "105": 27, "114": 27, "51": 2, "52": 3, "53": 4, "54": 5, "55": 5, "56": 6, "57": 6, "62": 9, "63": 10}, "uri": "base.tmpl", "filename": "themes/zen/templates/base.tmpl"}
 __M_END_METADATA
 """

@@ -24,7 +24,7 @@ BLOG_TITLE = "Leximath"  # (translatable)
 SITE_URL = "https://leximath.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "https://leximath.github.io/"
+BASE_URL = "https://leximath.github.io/"
 BLOG_EMAIL = "fccoelho@leximath.com.br"
 BLOG_DESCRIPTION = "Leximath pesquisa e consultoria."  # (translatable)
 

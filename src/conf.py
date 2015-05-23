@@ -195,7 +195,7 @@ TIMEZONE = "UTC"
 # 2 = using a string like “2 days ago”
 #
 # Your theme must support it, bootstrap and bootstrap3 already do.
-# DATE_FANCINESS = 0
+DATE_FANCINESS = 1
 
 # While Nikola can select a sensible locale for each language,
 # sometimes explicit control can come handy.
@@ -627,10 +627,10 @@ IMAGE_FOLDERS = {'images': 'images'}
 # FAVICONS contains (name, file, size) tuples.
 # Used to create favicon link like this:
 # <link rel="name" href="file" sizes="size"/>
-# FAVICONS = (
-#     ("icon", "/favicon.ico", "16x16"),
-#     ("icon", "/icon_128x128.png", "128x128"),
-# )
+FAVICONS = (
+    ("icon", "/favicon.ico", "16x16"),
+    ("icon", "/icon_128x128.png", "128x128"),
+)
 
 # Show only teasers in the index pages? Defaults to False.
 # INDEX_TEASERS = False

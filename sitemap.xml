@@ -29,6 +29,11 @@
   <lastmod>2015-05-23</lastmod>
  </url>
  <url>
+  <loc>https://leximath.github.io/en/stories/home.html</loc>
+  <lastmod>2015-05-23</lastmod>
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://leximath.github.io/stories/home.html" />
+ </url>
+ <url>
   <loc>https://leximath.github.io/galleries/index.html</loc>
   <lastmod>2015-05-23</lastmod>
  </url>
@@ -39,5 +44,10 @@
  <url>
   <loc>https://leximath.github.io/listings/index.html</loc>
   <lastmod>2015-05-23</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/stories/home.html</loc>
+  <lastmod>2015-05-23</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://leximath.github.io/en/stories/home.html" />
  </url>
 </urlset>

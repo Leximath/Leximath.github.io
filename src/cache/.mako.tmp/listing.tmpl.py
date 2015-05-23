@@ -4,7 +4,7 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1432408827.530141
+_modified_time = 1432408981.1991549
 _enable_loop = True
 _template_filename = '/usr/local/lib/python3.4/dist-packages/nikola/data/themes/base/templates/listing.tmpl'
 _template_uri = 'listing.tmpl'
@@ -31,12 +31,12 @@ def render_body(context,**pageargs):
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         _import_ns = {}
         _mako_get_namespace(context, 'ui')._populate(_import_ns, ['bar'])
-        def content():
-            return render_content(context._locals(__M_locals))
-        ui = _mako_get_namespace(context, 'ui')
         code = _import_ns.get('code', context.get('code', UNDEFINED))
         files = _import_ns.get('files', context.get('files', UNDEFINED))
         messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
+        def content():
+            return render_content(context._locals(__M_locals))
+        ui = _mako_get_namespace(context, 'ui')
         crumbs = _import_ns.get('crumbs', context.get('crumbs', UNDEFINED))
         folders = _import_ns.get('folders', context.get('folders', UNDEFINED))
         source_link = _import_ns.get('source_link', context.get('source_link', UNDEFINED))
@@ -58,12 +58,12 @@ def render_content(context,**pageargs):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'ui')._populate(_import_ns, ['bar'])
-        def content():
-            return render_content(context)
-        ui = _mako_get_namespace(context, 'ui')
         code = _import_ns.get('code', context.get('code', UNDEFINED))
         files = _import_ns.get('files', context.get('files', UNDEFINED))
         messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
+        def content():
+            return render_content(context)
+        ui = _mako_get_namespace(context, 'ui')
         crumbs = _import_ns.get('crumbs', context.get('crumbs', UNDEFINED))
         folders = _import_ns.get('folders', context.get('folders', UNDEFINED))
         source_link = _import_ns.get('source_link', context.get('source_link', UNDEFINED))
@@ -103,6 +103,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"filename": "/usr/local/lib/python3.4/dist-packages/nikola/data/themes/base/templates/listing.tmpl", "source_encoding": "utf-8", "uri": "listing.tmpl", "line_map": {"86": 12, "71": 4, "72": 5, "73": 5, "74": 6, "75": 7, "76": 8, "77": 9, "78": 9, "79": 9, "80": 9, "81": 9, "82": 11, "83": 12, "84": 12, "85": 12, "22": 3, "87": 12, "88": 14, "89": 16, "90": 17, "91": 17, "28": 0, "93": 19, "94": 20, "95": 20, "96": 20, "97": 20, "98": 20, "104": 98, "92": 17, "44": 2, "45": 3, "50": 22, "56": 4}}
+{"source_encoding": "utf-8", "uri": "listing.tmpl", "filename": "/usr/local/lib/python3.4/dist-packages/nikola/data/themes/base/templates/listing.tmpl", "line_map": {"86": 12, "71": 4, "72": 5, "73": 5, "74": 6, "75": 7, "76": 8, "77": 9, "78": 9, "79": 9, "80": 9, "81": 9, "82": 11, "83": 12, "84": 12, "85": 12, "22": 3, "87": 12, "88": 14, "89": 16, "90": 17, "91": 17, "28": 0, "93": 19, "94": 20, "95": 20, "96": 20, "97": 20, "98": 20, "104": 98, "92": 17, "44": 2, "45": 3, "50": 22, "56": 4}}
 __M_END_METADATA
 """

@@ -123,19 +123,43 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 #          with a ``/``, otherwise end them with ``/index.html`` — or
 #          else they won’t be highlighted when active.
 
+
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Arquivo"),
-        ("/categories/index.html", "Tags"),
-        ("/rss.xml", "Feed RSS"),
+        ('/index.html', 'Home', 'icon-home'),
+        ('/archive.html', 'Arquivo', 'icon-folder-open-alt'),
+        ('/categories/index.html', 'Tags', 'icon-tags'),
+        ('/rss.xml', 'RSS', 'icon-rss'),
+        ('http://leximath.com.br', 'Sobre nós', 'icon-user'),
+        ('https://twitter.com/fccoelho', 'Nosso Twitter', 'icon-twitter'),
+        ('https://github.com/Leximath', 'Nosso Github', 'icon-github'),
     ),
 
     "en": (
-        ("/en/archive.html", "Archive"),
-        ("/en/categories/index.html", "Tags"),
-        ("/en/rss.xml", "RSS feed"),
-    ),
+        ('/index.html', 'Home', 'icon-home'),
+        ('/archive.html', 'Archives', 'icon-folder-open-alt'),
+        ('/categories/index.html', 'Tags', 'icon-tags'),
+        ('/rss.xml', 'RSS', 'icon-rss'),
+        ('http://leximath.com.br', 'About me', 'icon-user'),
+        ('https://twitter.com/fccoelho', 'My Twitter', 'icon-twitter'),
+        ('https://github.com/Leximath', 'My Github', 'icon-github'),
+    )
+
 }
+
+# NAVIGATION_LINKS = {
+#     DEFAULT_LANG: (
+#         ("/archive.html", "Arquivo"),
+#         ("/categories/index.html", "Tags"),
+#         ("/rss.xml", "Feed RSS"),
+#     ),
+#
+#     "en": (
+#         ("/en/archive.html", "Archive"),
+#         ("/en/categories/index.html", "Tags"),
+#         ("/en/rss.xml", "RSS feed"),
+#     ),
+# }
 
 # Name of the theme to use.
 THEME = "zen"

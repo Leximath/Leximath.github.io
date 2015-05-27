@@ -121,6 +121,21 @@
   <lastmod>2015-05-27</lastmod>
  </url>
  <url>
+  <loc>https://leximath.github.io/en/pages/index.html</loc>
+  <lastmod>2015-05-27</lastmod>
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://leximath.github.io/pages/index.html" />
+ </url>
+ <url>
+  <loc>https://leximath.github.io/en/pages/sobre-a-leximath.html</loc>
+  <lastmod>2015-05-27</lastmod>
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://leximath.github.io/pages/sobre-a-leximath.html" />
+ </url>
+ <url>
+  <loc>https://leximath.github.io/en/pages/tech.html</loc>
+  <lastmod>2015-05-27</lastmod>
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://leximath.github.io/pages/tech.html" />
+ </url>
+ <url>
   <loc>https://leximath.github.io/en/posts/new-site.html</loc>
   <lastmod>2015-05-27</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="https://leximath.github.io/posts/new-site.html" />
@@ -128,7 +143,10 @@
  <url>
   <loc>https://leximath.github.io/en/stories/index.html</loc>
   <lastmod>2015-05-27</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="https://leximath.github.io/stories/index.html" />
+ </url>
+ <url>
+  <loc>https://leximath.github.io/en/stories/sobre-a-leximath.html</loc>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/galleries/index.html</loc>
@@ -141,6 +159,21 @@
  <url>
   <loc>https://leximath.github.io/listings/index.html</loc>
   <lastmod>2015-05-27</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/pages/index.html</loc>
+  <lastmod>2015-05-27</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://leximath.github.io/en/pages/index.html" />
+ </url>
+ <url>
+  <loc>https://leximath.github.io/pages/sobre-a-leximath.html</loc>
+  <lastmod>2015-05-27</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://leximath.github.io/en/pages/sobre-a-leximath.html" />
+ </url>
+ <url>
+  <loc>https://leximath.github.io/pages/tech.html</loc>
+  <lastmod>2015-05-27</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://leximath.github.io/en/pages/tech.html" />
  </url>
  <url>
   <loc>https://leximath.github.io/posts/new-site.html</loc>
@@ -208,12 +241,19 @@
   <lastmod>2015-05-22</lastmod>
  </url>
  <url>
+  <loc>https://leximath.github.io/src/themes/octopress/templates/jinja/layout.html</loc>
+  <lastmod>2015-05-27</lastmod>
+ </url>
+ <url>
   <loc>https://leximath.github.io/stories/home.html</loc>
   <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/stories/index.html</loc>
   <lastmod>2015-05-27</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://leximath.github.io/en/stories/index.html" />
+ </url>
+ <url>
+  <loc>https://leximath.github.io/stories/sobre-a-leximath.html</loc>
+  <lastmod>2015-05-27</lastmod>
  </url>
 </urlset>

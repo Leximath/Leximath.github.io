@@ -127,20 +127,22 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('/index.html', 'Home', 'icon-home'),
+        ('/pages/tech.html', 'Tecnologias', 'icon-briefcase'),
         ('/archive.html', 'Arquivo', 'icon-folder-open-alt'),
         ('/categories/index.html', 'Tags', 'icon-tags'),
         ('/rss.xml', 'RSS', 'icon-rss'),
-        ('http://leximath.com.br', 'Sobre nós', 'icon-user'),
+        ('/pages/sobre-a-leximath.html', 'Sobre nós', 'icon-user'),
         ('https://twitter.com/fccoelho', 'Nosso Twitter', 'icon-twitter'),
         ('https://github.com/Leximath', 'Nosso Github', 'icon-github'),
     ),
 
     "en": (
         ('/index.html', 'Home', 'icon-home'),
+        ('/pages/tech.html', 'Technologies', 'icon-briefcase'),
         ('/archive.html', 'Archives', 'icon-folder-open-alt'),
         ('/categories/index.html', 'Tags', 'icon-tags'),
         ('/rss.xml', 'RSS', 'icon-rss'),
-        ('http://leximath.com.br', 'About me', 'icon-user'),
+        ('/pages/sobre-a-leximath.html', 'About me', 'icon-user'),
         ('https://twitter.com/fccoelho', 'My Twitter', 'icon-twitter'),
         ('https://github.com/Leximath', 'My Github', 'icon-github'),
     )
@@ -238,8 +240,8 @@ POSTS = (
     ("posts/*.txt", "posts", "post.tmpl"),
 )
 PAGES = (
-    ("stories/*.rst", "stories", "story.tmpl"),
-    ("stories/*.txt", "stories", "story.tmpl"),
+    ("stories/*.rst", "pages", "story.tmpl"),
+    ("stories/*.txt", "pages", "story.tmpl"),
 )
 
 # One or more folders containing files to be copied as-is into the output.
@@ -975,7 +977,7 @@ UNSLUGIFY_TITLES = True
 # }
 
 # If webassets is installed, bundle JS and CSS to make site loading faster
-# USE_BUNDLES = True
+USE_BUNDLES = True
 
 # Plugins you don't want to use. Be careful :-)
 # DISABLED_PLUGINS = ["render_galleries"]

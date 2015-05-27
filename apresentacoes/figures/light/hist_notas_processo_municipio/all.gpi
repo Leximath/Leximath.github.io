@@ -1,0 +1,27 @@
+#!/usr/bin/gnuplot
+
+set term pngcairo size 1324, 768
+set output "Notas_processo_municipios.png" 
+
+set style data histogram
+set style histogram clustered gap 5  
+set boxwidth 0.8
+set style fill solid noborder  
+set boxwidth 0.9
+set xtic rotate by -45 scale 0
+set key invert reverse Left outside
+set boxwidth 3
+
+set datafile separator ','
+set title "Dados de 2011"
+set ylabel "Quantidade / Qtd. Contratos"
+
+plot\
+'all.csv'  using ($4):xtic(1) title "Negativação" ,\
+'' using ($5):xtic(1) title  "Corte BT" ,\
+'' using ($6):xtic(1) title "Reclamação",\
+'' using ($3):xtic(1) title "Toi",\
+'' using ($2):xtic(1) title "Processo",\
+
+
+pause -1

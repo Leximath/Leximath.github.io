@@ -1,0 +1,79 @@
+0;Antecedente;Valor;1;Consequente;Valor;Conf;Lift;Lev;Conv
+2;corte-bt ;489093;3;religacao-bt ;308806;0.63;7.7;0.06;2.49
+3;religacao-bt ;383478;2;corte-bt ;308806;0.81;7.7;0.06;4.6
+2;corte-bt ;489093;4;negativacao ;304318;0.62;3.18;0.04;2.13
+4;negativacao ;913226;2;corte-bt ;304318;0.33;3.18;0.04;1.34
+4;negativacao ;913226;3;religacao-bt ;236137;0.26;3.15;0.03;1.24
+3;religacao-bt ;383478;4;negativacao ;236137;0.62;3.15;0.03;2.09
+2;corte-bt ;489093;5;negativacao religacao-bt ;206285;0.42;8.35;0.04;1.64
+6;corte-bt religacao-bt ;308806;4;negativacao ;206285;0.67;3.42;0.03;2.42
+4;negativacao ;913226;6;corte-bt religacao-bt ;206285;0.23;3.42;0.03;1.21
+7;negativacao corte-bt ;304318;3;religacao-bt ;206285;0.68;8.26;0.04;2.85
+5;negativacao religacao-bt ;236137;2;corte-bt ;206285;0.87;8.35;0.04;7.08
+3;religacao-bt ;383478;7;negativacao corte-bt ;206285;0.54;8.26;0.04;2.02
+4;negativacao ;913226;8;reclamacao ;82075;0.09;2.03;0.01;1.05
+8;reclamacao ;207044;4;negativacao ;82075;0.4;2.03;0.01;1.33
+4;negativacao ;913226;9;ren ;79738;0.09;1.33;0;1.02
+9;ren ;306902;4;negativacao ;79738;0.26;1.33;0;1.09
+8;reclamacao ;207044;3;religacao-bt ;57459;0.28;3.38;0.01;1.27
+3;religacao-bt ;383478;8;reclamacao ;57459;0.15;3.38;0.01;1.12
+2;corte-bt ;489093;8;reclamacao ;55364;0.11;2.56;0.01;1.08
+8;reclamacao ;207044;2;corte-bt ;55364;0.27;2.56;0.01;1.22
+2;corte-bt ;489093;9;ren ;52998;0.11;1.65;0;1.05
+9;ren ;306902;2;corte-bt ;52998;0.17;1.65;0;1.08
+2;corte-bt ;489093;10;fiscalizacao-bt ;46776;0.1;6.97;0.01;1.09
+10;fiscalizacao-bt ;64097;2;corte-bt ;46776;0.73;6.97;0.01;3.31
+2;corte-bt ;489093;11;religacao-bt reclamacao ;45548;0.09;7.58;0.01;1.09
+12;corte-bt reclamacao ;55364;3;religacao-bt ;45548;0.82;10.03;0.01;5.18
+6;corte-bt religacao-bt ;308806;8;reclamacao ;45548;0.15;3.33;0.01;1.12
+8;reclamacao ;207044;6;corte-bt religacao-bt ;45548;0.22;3.33;0.01;1.2
+3;religacao-bt ;383478;12;corte-bt reclamacao ;45548;0.12;10.03;0.01;1.12
+11;religacao-bt reclamacao ;57459;2;corte-bt ;45548;0.79;7.58;0.01;4.32
+2;corte-bt ;489093;13;negativacao reclamacao ;36281;0.07;4.22;0.01;1.06
+12;corte-bt reclamacao ;55364;4;negativacao ;36281;0.66;3.35;0.01;2.33
+4;negativacao ;913226;12;corte-bt reclamacao ;36281;0.04;3.35;0.01;1.03
+7;negativacao corte-bt ;304318;8;reclamacao ;36281;0.12;2.69;0;1.09
+13;negativacao reclamacao ;82075;2;corte-bt ;36281;0.44;4.22;0.01;1.6
+8;reclamacao ;207044;7;negativacao corte-bt ;36281;0.18;2.69;0;1.13
+10;fiscalizacao-bt ;64097;4;negativacao ;35516;0.55;2.84;0;1.8
+4;negativacao ;913226;10;fiscalizacao-bt ;35516;0.04;2.84;0;1.03
+3;religacao-bt ;383478;9;ren ;35276;0.09;1.4;0;1.03
+9;ren ;306902;3;religacao-bt ;35276;0.11;1.4;0;1.04
+9;ren ;306902;14;toi ;34778;0.11;15.23;0.01;1.12
+14;toi ;34778;9;ren ;34778;1;15.23;0.01;32494.41
+4;negativacao ;913226;11;religacao-bt reclamacao ;34143;0.04;3.04;0;1.03
+13;negativacao reclamacao ;82075;3;religacao-bt ;34143;0.42;5.07;0.01;1.57
+5;negativacao religacao-bt ;236137;8;reclamacao ;34143;0.14;3.26;0.01;1.12
+8;reclamacao ;207044;5;negativacao religacao-bt ;34143;0.16;3.26;0.01;1.14
+3;religacao-bt ;383478;13;negativacao reclamacao ;34143;0.09;5.07;0.01;1.08
+11;religacao-bt reclamacao ;57459;4;negativacao ;34143;0.59;3.04;0;1.98
+2;corte-bt ;489093;15;negativacao fiscalizacao-bt ;30480;0.06;8.2;0.01;1.06
+16;corte-bt fiscalizacao-bt ;46776;4;negativacao ;30480;0.65;3.34;0;2.31
+10;fiscalizacao-bt ;64097;7;negativacao corte-bt ;30480;0.48;7.3;0.01;1.78
+4;negativacao ;913226;16;corte-bt fiscalizacao-bt ;30480;0.03;3.34;0;1.02
+7;negativacao corte-bt ;304318;10;fiscalizacao-bt ;30480;0.1;7.3;0.01;1.1
+15;negativacao fiscalizacao-bt ;35516;2;corte-bt ;30480;0.86;8.2;0.01;6.31
+2;corte-bt ;489093;17;negativacao ren ;29562;0.06;3.54;0;1.05
+18;corte-bt ren ;52998;4;negativacao ;29562;0.56;2.85;0;1.82
+4;negativacao ;913226;18;corte-bt ren ;29562;0.03;2.85;0;1.02
+7;negativacao corte-bt ;304318;9;ren ;29562;0.1;1.48;0;1.03
+17;negativacao ren ;79738;2;corte-bt ;29562;0.37;3.54;0;1.42
+9;ren ;306902;7;negativacao corte-bt ;29562;0.1;1.48;0;1.03
+10;fiscalizacao-bt ;64097;3;religacao-bt ;28078;0.44;5.34;0;1.63
+3;religacao-bt ;383478;10;fiscalizacao-bt ;28078;0.07;5.34;0;1.06
+4;negativacao ;913226;19;processo ;26936;0.03;1.72;0;1.01
+19;processo ;79963;4;negativacao ;26936;0.34;1.72;0;1.21
+2;corte-bt ;489093;20;religacao-bt fiscalizacao-bt ;26404;0.05;8.99;0.01;1.05
+16;corte-bt fiscalizacao-bt ;46776;3;religacao-bt ;26404;0.56;6.88;0;2.11
+6;corte-bt religacao-bt ;308806;10;fiscalizacao-bt ;26404;0.09;6.23;0;1.08
+10;fiscalizacao-bt ;64097;6;corte-bt religacao-bt ;26404;0.41;6.23;0;1.59
+3;religacao-bt ;383478;16;corte-bt fiscalizacao-bt ;26404;0.07;6.88;0;1.06
+20;religacao-bt fiscalizacao-bt ;28078;2;corte-bt ;26404;0.94;8.99;0.01;15.01
+2;corte-bt ;489093;21;religacao-bt ren ;23168;0.05;6.28;0;1.04
+6;corte-bt religacao-bt ;308806;9;ren ;23168;0.08;1.14;0;1.01
+18;corte-bt ren ;52998;3;religacao-bt ;23168;0.44;5.33;0;1.63
+3;religacao-bt ;383478;18;corte-bt ren ;23168;0.06;5.33;0;1.05
+21;religacao-bt ren ;35276;2;corte-bt ;23168;0.66;6.28;0;2.61
+9;ren ;306902;6;corte-bt religacao-bt ;23168;0.08;1.14;0;1.01
+8;reclamacao ;207044;22;verif-instalacao-bt ;20774;0.1;7.62;0;1.1
+22;verif-instalacao-bt ;61563;8;reclamacao ;20774;0.34;7.62;0;1.44

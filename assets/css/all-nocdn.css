@@ -336,6 +336,14 @@ section {
   min-height: 100%;
   padding: 48px 0 60px 42px;
   margin-left: 180px;
+  background: #f7f2d3;
+  background: -moz-radial-gradient(center, circle cover, #ffffff 0%, #f7f2d3 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ffffff), color-stop(100%, #f7f2d3));
+  background: -webkit-radial-gradient(center, circle cover, #ffffff 0%, #f7f2d3 100%);
+  background: -o-radial-gradient(center, circle cover, #ffffff 0%, #f7f2d3 100%);
+  background: -ms-radial-gradient(center, circle cover, #ffffff 0%, #f7f2d3 100%);
+  background: radial-gradient(center, circle cover, #ffffff 0%, #f7f2d3 100%);
+  background-color: #f7f3de;
 }
 @media (min-width: 774px) and (max-width: 1047px) {
   .page-content {

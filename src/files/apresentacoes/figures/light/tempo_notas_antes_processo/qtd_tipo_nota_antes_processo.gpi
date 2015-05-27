@@ -1,0 +1,18 @@
+#!/usr/bin/gnuplot
+set term pngcairo size 1024, 568 
+set output "PNGs/qtd_tipos_nota_antes_processo.png"
+set datafile separator ","
+
+set style data histogram
+set style histogram cluster gap 1
+set style fill solid border -1
+set boxwidth 0.9
+set xtic rotate by -75 scale 0 font ",8"
+set grid
+
+set ylabel "Quantidade"
+
+plot "CSVs/2009.csv" u 3:xtic(1)  title "2009",\
+"CSVs/2010.csv" u 3:xtic(1)  title "2010",\
+"CSVs/2011.csv" u 3:xtic(1)  title "2011"
+#pause -1

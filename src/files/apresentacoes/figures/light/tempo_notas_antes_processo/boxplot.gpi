@@ -1,0 +1,18 @@
+#!/usr/bin/gnuplot
+set terminal epscairo transparent enhanced  
+set output 'boxplot_tempo_ultima_nota_processo.eps'
+set border 2 front linetype -1 linewidth 1.200 
+set boxwidth 0.5 absolute
+set style fill solid 0.10 border lt -1   
+unset key
+set pointsize 0.1
+set xtics border in scale 0,0 nomirror norotate  offset character 0, 0, 0 autojustify
+set ytics border in scale 1,0.5 nomirror norotate  offset character 0, 0, 0 autojustify
+set style data boxplot 
+set style boxplot separation 1.0 
+set datafile separator ","
+set xtic rotate by -90
+
+plot "boxplot.out"  u (0):2:(0.5):1 lc 3 ps 0.1    
+
+pause -1

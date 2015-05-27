@@ -6,94 +6,214 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://leximath.github.io/2015/index.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/apresentacoes/Semantics.html</loc>
+  <lastmod>2015-05-27</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/apresentacoes/figures/light/resultados_analise_notas_regiao/Analise_Light_Notas_Geo.html</loc>
+  <lastmod>2013-12-12</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/apresentacoes/light.html</loc>
+  <lastmod>2015-05-25</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/apresentacoes/light_vis1.html</loc>
+  <lastmod>2015-05-24</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/apresentacoes/light_vis2.html</loc>
+  <lastmod>2015-05-24</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/apresentacoes/light_vis3.html</loc>
+  <lastmod>2015-05-25</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/apresentacoes/light_vis4.html</loc>
+  <lastmod>2015-05-25</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/apresentacoes/light_vis5.html</loc>
+  <lastmod>2015-05-25</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/apresentacoes/light_vis6.html</loc>
+  <lastmod>2015-05-25</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/apresentacoes/light_vis7.html</loc>
+  <lastmod>2015-05-25</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/apresentacoes/plugin/markdown/example.html</loc>
+  <lastmod>2015-05-22</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/apresentacoes/plugin/notes-server/notes.html</loc>
+  <lastmod>2015-05-22</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/apresentacoes/plugin/notes/notes.html</loc>
+  <lastmod>2015-05-22</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/apresentacoes/simulacao.html</loc>
+  <lastmod>2015-05-25</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/apresentacoes/template.html</loc>
+  <lastmod>2015-05-22</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/archive.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/blog/index.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/categories/cat_noticias.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/categories/index.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/categories/site.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/en/2015/index.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/en/archive.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/en/blog/index.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/en/categories/cat_noticias.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/en/categories/index.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/en/categories/site.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/en/galleries/index.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/en/index.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/en/posts/new-site.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="https://leximath.github.io/posts/new-site.html" />
  </url>
  <url>
   <loc>https://leximath.github.io/en/stories/index.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="https://leximath.github.io/stories/index.html" />
  </url>
  <url>
   <loc>https://leximath.github.io/galleries/index.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/index.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/listings/index.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/posts/new-site.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://leximath.github.io/en/posts/new-site.html" />
  </url>
  <url>
+  <loc>https://leximath.github.io/src/files/apresentacoes/Semantics.html</loc>
+  <lastmod>2015-05-27</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/src/files/apresentacoes/figures/light/resultados_analise_notas_regiao/Analise_Light_Notas_Geo.html</loc>
+  <lastmod>2013-12-12</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/src/files/apresentacoes/light.html</loc>
+  <lastmod>2015-05-25</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/src/files/apresentacoes/light_vis1.html</loc>
+  <lastmod>2015-05-24</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/src/files/apresentacoes/light_vis2.html</loc>
+  <lastmod>2015-05-24</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/src/files/apresentacoes/light_vis3.html</loc>
+  <lastmod>2015-05-25</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/src/files/apresentacoes/light_vis4.html</loc>
+  <lastmod>2015-05-25</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/src/files/apresentacoes/light_vis5.html</loc>
+  <lastmod>2015-05-25</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/src/files/apresentacoes/light_vis6.html</loc>
+  <lastmod>2015-05-25</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/src/files/apresentacoes/light_vis7.html</loc>
+  <lastmod>2015-05-25</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/src/files/apresentacoes/plugin/markdown/example.html</loc>
+  <lastmod>2015-05-22</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/src/files/apresentacoes/plugin/notes-server/notes.html</loc>
+  <lastmod>2015-05-22</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/src/files/apresentacoes/plugin/notes/notes.html</loc>
+  <lastmod>2015-05-22</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/src/files/apresentacoes/simulacao.html</loc>
+  <lastmod>2015-05-25</lastmod>
+ </url>
+ <url>
+  <loc>https://leximath.github.io/src/files/apresentacoes/template.html</loc>
+  <lastmod>2015-05-22</lastmod>
+ </url>
+ <url>
   <loc>https://leximath.github.io/stories/home.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
  </url>
  <url>
   <loc>https://leximath.github.io/stories/index.html</loc>
-  <lastmod>2015-05-23</lastmod>
+  <lastmod>2015-05-27</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://leximath.github.io/en/stories/index.html" />
  </url>
 </urlset>

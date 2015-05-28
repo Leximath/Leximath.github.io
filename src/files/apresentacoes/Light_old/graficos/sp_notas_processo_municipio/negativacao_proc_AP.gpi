@@ -1,0 +1,28 @@
+#!/usr/bin/gnuplot
+set terminal pngcairo size 1024,768  
+set datafile separator ","
+#set log x
+#set log y
+
+set title "Contratos Ativos (2009-2011) - AP"
+set xlabel "Negativação / Qtd. Contratos (2009-2010)"
+set ylabel "Processos / Qtd. Contratos (2010-2011)"
+set cblabel "log(Qtd. Contratos)"
+
+set palette defined ( 0 0 0 1, 0.5 1 0 0, 1 1 1 0 )
+
+set output "PNGs/scatter_negativacao_contratos_AP.png"
+f(x) = a*x + b
+fit f(x) 'CSVs/negativacao_proc_AP.csv' using ($3/$2):($4/$2) via a,b 
+plot "CSVs/negativacao_proc_AP.csv" u ($3/$2):($4/$2):(log($2)) with points palette pt 7 ps 2 notitle,\
+"" u ($3/$2):($4/$2):1 with labels offset 0,1 notitle, f(x) notitle
+#f(x) title "Ajuste linear"
+
+#set output "PNGs/bairro_scatter_negativacao_contratos.png"
+#f(x) = a*x + b
+#fit f(x) 'CSVs/bairro_negativacao_proc.csv' using ($3/$2):($4/$2) via a,b 
+#plot "CSVs/bairro_negativacao_proc.csv" u ($3/$2):($4/$2):(log($2)) with points palette pt 7 ps 2 notitle,\
+#"" u ($3/$2):($4/$2):1 with labels offset 0,1 notitle,\
+#f(x) title "Ajuste linear"
+
+pause -1

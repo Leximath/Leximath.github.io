@@ -1,0 +1,19 @@
+{"name": "4M de Clientes", "size" : 4673967, "children": [
+    {"name": "Clientes Processam - 71602", "size": 71602, "children": [
+        {"name": "1 Contrato - 58616", "size": 58616, "children": [
+            {"name": "1 Processo - 52623", "size": 52623},
+            {"name": ">1 Processo - 5993", "size": 5993}
+            ]},
+        {"name": ">1 Contrato - 12986", "size": 12986, "children": [
+            {"name": "1 Processo - 10647", "size": 10647},
+            {"name": ">1 Processo - 2339", "size": 2339, "children": [
+                {"name": "Processos / Contratos = 1 - 2257", "size": 2257},
+                {"name": "Processos / Contratos > 1 - 82", "size": 82}
+                ]}
+            ]}
+        ]},
+    {"name": "Demais Clientes", "size": 4000000}
+    ]
+}
+
+

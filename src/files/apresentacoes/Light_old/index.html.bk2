@@ -1,0 +1,425 @@
+
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Projeto Light</title>
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/default.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="css/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h1>Projeto Light</h1>
+          <h3>Prevenção, Tratamento e Redução </h3><h3>dos Conflitos de Consumo</h3>
+          <p>
+            <small>Genealogia dos processos judiciais contra a Light</small>
+          </p>
+        </section>
+
+        <!-- Example of nested vertical slides -->
+        <section>
+          <section>
+            <h2>Último evento antes do processo</h2>
+            <p>Esta análise permite avaliar se existe algum corte
+              temporal que represente comportamento dos dados em relação
+              ao tempo entre a Nota e um Processo.</p>
+          </section>										
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/tempo_notas_antes_processo/PNGs/qtd_tipos_nota_antes_processo.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/tempo_notas_antes_processo/PNGs/boxplot_tempo_ultima_nota_processo.png" scrolling="no"></img>
+          </section>										 
+
+          <section data-background="#F7F7F7">
+            <iframe	width="1200px" height="900px" src="visualizacoes/6" scrolling="no" >
+            </iframe>
+          </section>
+
+          <section>
+            <h2>Distribuição de dias e Curva Acumulada</h2>
+            <p>Este gráfico permite entender o comportamento das
+              curvas acumuladas das principais Notas de clientes.</p>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <iframe	width="1200px" height="900px" src="visualizacoes/7" scrolling="no" >
+            </iframe>
+          </section>
+        </section>
+
+
+        <!-- Example of nested vertical slides -->
+        <section>
+          <section>
+            <h2>Tempo de duração das notas</h2>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/tempo_duracao_notas/PNGs/boxplot_tempo_duracao_nota.png" scrolling="no"></img>
+          </section>	
+
+        </section>
+
+        <!-- Example of nested vertical slides -->
+        <section>
+          <section>
+            <h2>Análise de notas por região</h2>
+            <p>Histogramas - 2011</p>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/hist_notas_processo_municipio/PNGs/notas_processo_municipios.png" scrolling="no"></img>
+          </section>		
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/resultados_analise_notas_regiao/Analise_Light_Notas_Geo_files/Analise_Light_Notas_Geo_5_0.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/resultados_analise_notas_regiao/Analise_Light_Notas_Geo_files/Analise_Light_Notas_Geo_6_0.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/resultados_analise_notas_regiao/Analise_Light_Notas_Geo_files/Analise_Light_Notas_Geo_7_0.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/resultados_analise_notas_regiao/Analise_Light_Notas_Geo_files/Analise_Light_Notas_Geo_8_0.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/resultados_analise_notas_regiao/Analise_Light_Notas_Geo_files/Analise_Light_Notas_Geo_9_0.png" scrolling="no"></img>
+          </section>																														
+
+
+        </section>
+
+        <section>
+          <section>
+            <h2>Análise de notas por região</h2>
+            <p>Gráficos de dispersão</p>
+          </section>
+
+          <section>
+            <h2>Municípios</h2>
+            <p></p>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/sp_notas_processo_municipio/PNGs/scatter_toi_contratos.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/sp_notas_processo_municipio/PNGs/scatter_corte_contratos.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/sp_notas_processo_municipio/PNGs/scatter_negativacao_contratos.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/sp_notas_processo_municipio/PNGs/scatter_reclamacao_contratos.png" scrolling="no"></img>
+          </section>
+
+          <section>
+            <h2>Regiões Administrativas</h2>
+            <p></p>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/sp_notas_processo_municipio/PNGs/ra_scatter_toi_contratos.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/sp_notas_processo_municipio/PNGs/ra_scatter_corte_contratos.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/sp_notas_processo_municipio/PNGs/ra_scatter_negativacao_contratos.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/sp_notas_processo_municipio/PNGs/ra_scatter_reclamacao_contratos.png" scrolling="no"></img>
+          </section>
+
+        </section>
+        
+        <section>
+          <section>
+            <h2>Análise de notas por região</h2>
+            <p>Mapas de calor</p>
+          </section>
+        
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/heatmaps_municipios/corte3.png" scrolling="no"></img>
+          </section>
+          
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/heatmaps_municipios/negativacao3.png" scrolling="no"></img>
+          </section>
+          
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/heatmaps_municipios/reclamacao3.png" scrolling="no"></img>
+          </section>
+          
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/heatmaps_municipios/toi3.png" scrolling="no"></img>
+          </section>
+          
+          <section>
+            <h2>Sepetiba em detalhe</h2>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/heatmaps_municipios/sepetiba_corte.png" scrolling="no"></img>
+          </section>
+          
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/heatmaps_municipios/sepetiba_negativacao.png" scrolling="no"></img>
+          </section>
+          
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/heatmaps_municipios/sepetiba_reclamacao.png" scrolling="no"></img>
+          </section>
+          
+          <section data-background="#F7F7F7">
+			<h2>TOI</h2>
+            <img src="genealogia_do_conflito/graficos/heatmaps_municipios/sepetiba_toi.png" scrolling="no"></img>
+          </section>
+          
+          
+        </section>        
+
+        <section>
+          <section>
+            <h2>Análise de notas por região</h2>
+            <p>Mapas</p>
+          </section>
+
+          <section>
+            <h2>Bairros</h2>
+            <p></p>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/mapas_bairros/PNGs/bairros_cortes.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/mapas_bairros/PNGs/bairros_negativacoes.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/mapas_bairros/PNGs/bairros_processos.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/mapas_bairros/PNGs/bairros_reclamacoes.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/mapas_bairros/PNGs/bairros_tois.png" scrolling="no"></img>
+          </section>
+
+          <section>
+            <h2>Municípios</h2>
+            <p></p>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/mapas_municipios/PNGs/municipios_cortes.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/mapas_municipios/PNGs/municipios_negas.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/mapas_municipios/PNGs/municipios_procs.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/mapas_municipios/PNGs/municipios_recs.png" scrolling="no"></img>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <img src="genealogia_do_conflito/graficos/mapas_municipios/PNGs/municipios_tois.png" scrolling="no"></img>
+          </section>										
+
+        </section>
+
+
+        <!-- Example of nested vertical slides -->
+        <section>
+
+          <section>
+            <h2>Análise de pares de notas</h2>
+            <p>Esta análise permite avaliar a relação entre notas de
+              um mesmo cliente.</p>
+          </section>
+
+          <section data-background="#F7F7F7">
+            <p style="color:#000000">Gráfico de Pares - Quantidade de Pares<p>
+                <iframe	width="1200px" height="900px" src="visualizacoes/8" scrolling="no" >
+                </iframe>
+              </section>
+
+              <section data-background="#F7F7F7">
+                <p style="color:#000000">Gráfico de Pares - Quantidade de Contratos<p>
+                    <iframe	width="1200px" height="900px" src="visualizacoes/9" scrolling="no" >
+                    </iframe>
+                  </section>
+
+
+              <section data-background="#F7F7F7">
+                <p style="color:#000000">Gráfico de Pares - Quantidade de Contratos<p>
+                    <iframe	width="1200px" height="900px" src="visualizacoes/pares_processo" scrolling="no" >
+                    </iframe>
+                  </section>
+
+
+
+                </section>
+
+                <section>
+                  <section>
+                    <h2 >Clientes Litigantes</h2>
+                    <p>Descrição dos Clientes, Contratos e Processos.</p>
+                  </section>
+
+                  <section data-background="#F7F7F7">
+                    <h2 style="color:#000000">Clientes Litigantes</h2>
+                    <iframe	width="1200px" height="900px" src="visualizacoes/10" scrolling="no" >
+                    </iframe>
+                  </section>
+
+                </section>
+
+                <section>
+                  <section>
+                    <h2>Regras de Associação</h2>
+                    <p></p>
+                  </section>
+
+
+                  <section data-background="#F7F7F7">
+                    <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/bubblechart_regras_associacao/PNGs/bubbles_chart.png" scrolling="no"></img>
+                  </section>
+
+                  <section>
+                    <iframe	width="1200px" height="700px" src="visualizacoes/2" scrolling="yes" >
+                    </iframe>
+                  </section>
+                </section>
+
+                <!--
+                <section>
+                  <section>
+                    <h2>Perfil do Rio de Janeiro</h2>
+                  </section>
+                  <section>
+                    <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/sp_notas_processo_municipio/PNGs/bairro_scatter_corte_contratos.png" scrolling="no"></img>
+                  </section>
+                  <!--
+                  <section>
+                    <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/sp_notas_processo_municipio/PNGs/bairro_scatter_reclamacao_contratos.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/sp_notas_processo_municipio/PNGs/bairro_scatter_negativacao_contratos.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <img width="1200px" height="700px" src="genealogia_do_conflito/graficos/sp_notas_processo_municipio/PNGs/bairro_scatter_toi_contratos.png" scrolling="no"></img>
+                  </section>
+                </section>
+                -->
+
+                <!-- Example of nested vertical slides -->
+
+                <!--
+                <section>
+                  <section>
+                    <h2>Comportamento em Relação ao Consumo</h2>
+                    <p>Esta análise permite avaliar o comportamento dos
+                      consumidores em relação ao faturamento medido.</p>
+                  </section>
+
+                  <section data-background="#F7F7F7">
+                    <iframe	width="1200px" height="700px" src="visualizacoes/5" scrolling="no" >
+                    </iframe>
+                  </section>
+
+                  <section data-background="#F7F7F7">
+                    <iframe	width="1200px" height="900px" src="visualizacoes/1" scrolling="no" >
+                    </iframe>
+                  </section>
+
+                </section>	
+                -->
+
+              </div>
+
+            </div>
+
+            <script src="js/head.min.js"></script>
+            <script src="js/reveal.min.js"></script>
+
+            <script>
+
+              // Full list of configuration options available here:
+              // https://github.com/hakimel/reveal.js#configuration
+              Reveal.initialize({
+                width: 1500,
+                height: 900,
+                margin: 0.1,
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                { src: 'js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'js/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'js/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'js/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                { src: 'js/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+              });
+
+            </script>
+
+            <!-- Everything below this point is unrelated to the slideshow -->
+
+            <div class="share-reveal" style="display: none; position: absolute; bottom: 10px; left: 50%; margin-left: -225px; z-index: 20;">
+              Anytext
+            </div>
+
+          </body>
+        </html>

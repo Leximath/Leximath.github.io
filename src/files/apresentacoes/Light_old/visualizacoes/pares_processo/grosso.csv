@@ -1,0 +1,179 @@
+SPC,SPC,1754213,511715
+SERASA,SERASA,1292377,433178
+SERASA,SPC,811307,468893
+Religação BT,Corte BT,756591,552516
+SPC,SERASA,751895,422683
+Corte BT,Corte BT,470525,275543
+Recuperação Energ BT,Recuperação Energ BT,393695,279133
+Corte BT,SPC,371288,299751
+Corte BT,NN,324811,324811
+SPC,NN,323918,323918
+SPC,Corte BT,241554,210494
+SERASA,NN,235026,235026
+Recuperação Energ BT,NN,230876,230876
+Corte BT,SERASA,198965,176937
+SPC,Religação BT,193310,166753
+Reclamação,NN,187558,187558
+SERASA,Corte BT,145350,133527
+Religação BT,NN,126486,126486
+SERASA,Religação BT,121791,112359
+Corte BT,Religação BT,112238,92243
+Reclamação,Religação BT,83517,80011
+Reclamação,Reclamação,74846,58832
+Religação BT,SPC,69063,66648
+Recuperação Energ BT,SPC,67230,63240
+Corte BT,Recuperação Energ BT,65915,62939
+SPC,Recuperação Energ BT,61630,57997
+Fiscalização BT,Corte BT,51695,44987
+SPC,Reclamação,49190,47189
+Desligamento  BT,NN,46245,46245
+SERASA,Recuperação Energ BT,43127,41457
+Verif Instalação BT,NN,42327,42327
+Verif Instalação BT,Reclamação,41918,39694
+Reclamação,SPC,40575,38799
+Religação BT,SERASA,38529,37670
+Recuperação Energ BT,SERASA,36964,35584
+Modif/Manut Mediç BT,NN,36916,36916
+Corte BT,Reclamação,33507,32376
+Recuperação Energ BT,Corte BT,32121,30742
+SERASA,Reclamação,30944,30217
+Recuperação Energ BT,Religação BT,25679,25360
+Reclamação,SERASA,23557,22953
+Aferição BT,NN,22816,22816
+Corte BT,Fiscalização BT,22755,20574
+Reclamação,Corte BT,22676,22024
+Substituição BT,NN,21587,21587
+Aferição BT,Reclamação,21129,20736
+Religação BT,Reclamação,20917,20504
+Religação BT,Recuperação Energ BT,20669,20487
+Fiscalização BT,Recuperação Energ BT,20589,20462
+Modif/Manut Mediç BT,Modif/Manut Mediç BT,19788,14104
+Vistoria BT,NN,19579,19579
+Fiscalização BT,NN,19373,19373
+Alterar Carga BT,Vistoria BT,18976,18914
+Verif Instalação BT,Verif Instalação BT,18643,14534
+processo,Religação BT,18203,17835
+Religação BT,Fiscalização BT,17360,17096
+Reclamação,Verif Instalação BT,15828,14810
+SPC,Fiscalização BT,15349,15006
+SPC,Verif Instalação BT,12485,12087
+Reclamação,Recuperação Energ BT,12269,12074
+Reclamação,Modif/Manut Mediç BT,12008,10594
+Vistoria BT,Vistoria BT,11607,8091
+Modif/Manut Mediç BT,Reclamação,11567,10460
+Recuperação Energ BT,Verif Instalação BT,11234,10794
+Recuperação Energ BT,Reclamação,11174,11039
+Corte BT,Verif Instalação BT,10866,10627
+Substituição BT,Verif Instalação BT,10722,10631
+SPC,Modif/Manut Mediç BT,10254,9176
+Modif/Manut Mediç BT,SPC,10192,8969
+Fiscalização BT,Religação BT,9630,9598
+Verif Instalação BT,SPC,9506,9159
+Reclamação,Aferição BT,9339,9217
+SERASA,Verif Instalação BT,9044,8843
+SolicitaçãoOuvidoria,Reclamação,9041,8589
+Retificação Nome End,NN,8959,8959
+Reclamação,Substituição BT,8571,8508
+Substituição BT,Modif/Manut Mediç BT,8420,8390
+SERASA,Fiscalização BT,8408,8299
+processo,SPC,8257,8026
+Substituição BT,Aferição BT,8209,8179
+SPC,processo,8125,7880
+processo,Recuperação Energ BT,7846,7799
+processo,NN,7618,7618
+SERASA,Modif/Manut Mediç BT,7569,6989
+Modif/Manut Mediç BT,Religação BT,7269,7118
+Verif Instalação BT,Recuperação Energ BT,7205,6849
+SPC,Aferição BT,7153,7092
+Corte BT,processo,7089,6935
+SPC,Substituição BT,6727,6692
+Religação BT,processo,6660,6600
+Corte BT,Aferição BT,6545,6500
+Verif Instalação BT,Religação BT,6535,6442
+Modif/Manut Mediç BT,SERASA,6511,6004
+Acompanhamento BT,NN,6266,6266
+Verif Instalação BT,SERASA,6248,6105
+processo,Corte BT,6016,5902
+Religação BT,Religação BT,5962,5788
+Alterar Carga BT,NN,5923,5923
+Corte BT,Modif/Manut Mediç BT,5810,5384
+Corte BT,Desligamento  BT,5776,5776
+SolicitaçãoOuvidoria,NN,5769,5769
+Substituição BT,Reclamação,5666,5630
+Fiscalização BT,SPC,5454,5287
+Modif/Manut Mediç BT,Recuperação Energ BT,5427,5041
+Recuperação Energ BT,Modif/Manut Mediç BT,5423,5071
+Aferição BT,SPC,5405,5365
+processo,Reclamação,5340,5297
+Fiscalização BT,Fiscalização BT,5205,4174
+SERASA,processo,5016,4881
+Substituição BT,Religação BT,4996,4983
+SERASA,Substituição BT,4960,4945
+Fiscalização BT,Alterar Carga BT,4860,4859
+processo,processo,4804,3773
+Aferição BT,Religação BT,4744,4720
+VerifTensão Fornec,NN,4703,4703
+SERASA,Aferição BT,4495,4478
+Recuperação Energ BT,Fiscalização BT,4433,4408
+Corte BT,Substituição BT,4370,4348
+SPC,Desligamento  BT,4309,4309
+Alterar Carga BT,Acompanhamento BT,4150,4147
+Modif/Manut Mediç BT,Verif Instalação BT,4103,3858
+Verif Instalação BT,Corte BT,4100,3984
+Substituição BT,SPC,3864,3850
+processo,SERASA,3826,3724
+Modif/Manut Mediç BT,Corte BT,3250,3000
+Aferição BT,SERASA,3247,3230
+Recuperação Energ BT,processo,3198,3174
+Aferição BT,Verif Instalação BT,3034,3024
+Verif Instalação BT,Modif/Manut Mediç BT,2902,2722
+Reclamação,SolicitaçãoOuvidoria,2713,2578
+Substituição BT,Recuperação Energ BT,2596,2590
+Substituição BT,SERASA,2573,2563
+Modif/Manut Mediç BT,Substituição BT,2547,2532
+SERASA,Desligamento  BT,2534,2534
+SolicitaçãoOuvidoria,SolicitaçãoOuvidoria,2453,2082
+Religação BT,Verif Instalação BT,2381,2369
+Religação BT,Desligamento  BT,2359,2355
+SPC,SolicitaçãoOuvidoria,2335,2300
+SolicitaçãoOuvidoria,Religação BT,2254,2241
+Desligamento  BT,SPC,2237,2237
+Recuperação Energ BT,Substituição BT,2232,2229
+Reclamação,processo,2185,2168
+Reclamação,Fiscalização BT,2160,2158
+Religação BT,Modif/Manut Mediç BT,2023,1994
+SPC,Alterar Carga BT,1926,1925
+Fiscalização BT,SERASA,1916,1879
+Reclamação,Alterar Carga BT,1907,1903
+Desligamento  BT,SERASA,1742,1742
+SERASA,SolicitaçãoOuvidoria,1638,1611
+Vistoria BT,SPC,1633,1569
+SolicitaçãoOuvidoria,SPC,1631,1609
+Corte BT,SolicitaçãoOuvidoria,1594,1575
+Fiscalização BT,Reclamação,1576,1574
+Vistoria BT,Religação BT,1551,1541
+Aferição BT,Recuperação Energ BT,1534,1531
+Recuperação Energ BT,Aferição BT,1403,1399
+SERASA,Alterar Carga BT,1395,1395
+Verif Instalação BT,Substituição BT,1374,1358
+Alterar Carga BT,Reclamação,1369,1367
+SPC,Retificação Nome End,1366,1356
+Desligamento  BT,Religação BT,1358,1357
+Desligamento  BT,Corte BT,1329,1329
+Aferição BT,Corte BT,1276,1269
+Reclamação,Retificação Nome End,1251,1229
+Verif Instalação BT,Aferição BT,1239,1235
+Retirada BT,Fiscalização BT,1226,1226
+Religação BT,Aferição BT,1213,1213
+Aferição BT,Modif/Manut Mediç BT,1206,1193
+Verif Instalação BT,processo,1180,1174
+SolicitaçãoOuvidoria,Corte BT,1160,1143
+Substituição BT,Corte BT,1137,1131
+Retificação Nome End,Religação BT,1115,1112
+Religação BT,SolicitaçãoOuvidoria,1112,1104
+Modif/Manut Mediç BT,Aferição BT,1109,1100
+Vistoria BT,SERASA,1071,1052
+SolicitaçãoOuvidoria,SERASA,1040,1033
+Verif Instalação BT,SolicitaçãoOuvidoria,1027,996
+Dados do Atendimento,Reclamação,1021,961
+Retificação Nome End,SPC,1006,996

@@ -1,0 +1,1 @@
+select 'negativacao', count(distinct(case when extract(year from data_negativacao) = 2009 then id_parceiro else NULL end)) as neg_2009, count(distinct(case when extract(year from data_negativacao) = 2010 then id_parceiro else NULL end)) as neg_2010, count(distinct(case when extract(year from data_negativacao) = 2011 then id_parceiro else NULL end)) as neg_2011 from negativacoes;

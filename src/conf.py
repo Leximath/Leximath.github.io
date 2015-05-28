@@ -134,6 +134,7 @@ NAVIGATION_LINKS = {
         ('/pages/sobre-a-leximath.html', 'Sobre nós', 'icon-user'),
         ('https://twitter.com/fccoelho', 'Nosso Twitter', 'icon-twitter'),
         ('https://github.com/Leximath', 'Nosso Github', 'icon-github'),
+        ('https://www.linkedin.com/company/leximath', 'LinkedIn', 'icon-linkedin'),
     ),
 
     "en": (
@@ -145,6 +146,7 @@ NAVIGATION_LINKS = {
         ('/pages/sobre-a-leximath.html', 'About me', 'icon-user'),
         ('https://twitter.com/fccoelho', 'My Twitter', 'icon-twitter'),
         ('https://github.com/Leximath', 'My Github', 'icon-github'),
+        ('https://www.linkedin.com/company/leximath', 'LinkedIn', 'icon-linkedin'),
     )
 
 }
@@ -241,6 +243,7 @@ POSTS = (
 )
 PAGES = (
     ("stories/*.rst", "pages", "story.tmpl"),
+    ("stories/*.md", "pages", "story.tmpl"),
     ("stories/*.txt", "pages", "story.tmpl"),
 )
 

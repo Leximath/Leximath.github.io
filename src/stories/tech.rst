@@ -10,7 +10,7 @@
 Aqui estão listadas apresentações com exemplos de aplicações das tecnologias Leximath.
 
 +----------------------------------------------------+----------------------------------------------------+
-|Aplicação                                           |   Apresentação                                     |
+|**Aplicação**                                       |   **Apresentação**                                 |
 +====================================================+====================================================+
 |`Contencioso de Massa </apresentacoes/light.html>`_ |.. image:: /apresentacoes/figures/isagogicas.png    |
 |                                                    |   :height: 200px                                   |

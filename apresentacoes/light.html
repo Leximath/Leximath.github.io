@@ -37,34 +37,234 @@
 		<img src="figures/logo.png">
 	</header>
 
-
-
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-                <!-- Slide Inicial -->
-				<section>
-					<h1>Light S/A</h1>
-					<h3>Prevenção, Tratamento e Redução </h3><h3>dos Conflitos de Consumo</h3>
-					<p>
+
+                <section> <!-- Block of nested vertical slides -->
+                    <section>
+					    <h1>Light S/A</h1>
+					    <h3>Prevenção, Tratamento e Redução </h3><h3>dos Conflitos de Consumo</h3>
+					    <p>
 						<small>Created by <a href="http://leximath.com.br">Leximath</a></small>
-					</p>
-				</section>
+					    </p>
+				    </section>
+                    <section>
+                        <h2> Contencioso de Massa</h2>
+                        <ul>
+                            <li> Milhões de processos em estoque.
+                            <li> R$ 100M contigenciados anualmente
+                            <li> Imagem da empresa prejudicada
+                            <li> Situação fora de controle
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Eixos de Trabalho</h2>
 
-				<!-- Block of nested vertical slides -->
-                <!-- Segundo Slide - Primeiro Bloco Vertical-->
-				<section>
+                        <Table>
+                         <tr>
+                            <td><h3>Geografia: </h3>
+                            <td><p>Determinação de características regionalizadas</p>
+                         </tr>
+                         <tr>
+                             <td><h3>Genealogia: </h3>
+                             <td><p>Compreensão de como as ações da empresa influenciam o litígio</p>
+                         </tr>
+                         <tr>
+                             <td><h3>Simulador: </h3>
+                             <td><p>Modelagem preditiva do comportamento litigioso</p>
+                        </Table>
+                    </section>
 
+                    <section>
+                        <h2>Dados utilizados</h2>
+                        <ul>
+                            <li><p>Sistema de Acompanhamento de Processos Civis (Gerpro)</p></li>
+                            <li><p>Notas de Interações com Clientes (SAP)</p></li>
+                            <li><p>Base dos Correios</p></li>
+                            <li><p>Base do TJRJ</p></li>
+                            <li><p>API Geolocalização Google e OSM</p></li>
+                        </ul>
+                    </section>
+                </section>
+
+				<section> <!-- Block of nested vertical slides -->
 				  <section>
-					<h2>Último evento antes do processo</h2>
-					<p>Análise do comportamento dos consumidores em relação
-					  aos eventos ofensores e um processo</p>
+					<h2>Geografia do Conflito</h2>
+					<p>Histogramas</p>
 				  </section>
-
+                  <section>
+                    <img width="1200px" height="700px" src="./figures/light/hist_notas_processo_municipio/PNGs/notas_processo_municipios.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <img width="1200px" height="700px" src="./figures/light/resultados_analise_notas_regiao/Analise_Light_Notas_Geo_files/Analise_Light_Notas_Geo_5_0.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <img width="1200px" height="700px" src="./figures/light/resultados_analise_notas_regiao/Analise_Light_Notas_Geo_files/Analise_Light_Notas_Geo_6_0.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <img width="1200px" height="700px" src="./figures/light/resultados_analise_notas_regiao/Analise_Light_Notas_Geo_files/Analise_Light_Notas_Geo_7_0.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <img width="1200px" height="700px" src="./figures/light/resultados_analise_notas_regiao/Analise_Light_Notas_Geo_files/Analise_Light_Notas_Geo_8_0.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <img width="1200px" height="700px" src="./figures/light/resultados_analise_notas_regiao/Analise_Light_Notas_Geo_files/Analise_Light_Notas_Geo_9_0.png" scrolling="no"></img>
+                  </section>
+				</section>
+				<section> <!-- Block of nested vertical slides -->
+				  <section>
+					<h2>Geografia do Conflito</h2>
+					<p>Gráficos de dispersão</p>
+				  </section>
+				  <section>
+					<p style="color:#000000">Municípios - Processo e TOI</p>
+					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_toi_contratos.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Processo e TOI - Apenas APs</p>
+					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_toi_contratos_AP.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Municípios - Processo e Corte</p>
+					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_corte_contratos.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Processo e Corte - Apenas APs</p>
+					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_corte_contratos_AP.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Municípios - Processo e Negativação</p>
+					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_negativacao_contratos.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Processo e Negativação - Apenas APs</p>
+					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_negativacao_contratos_AP.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Municípios - Processo e Reclamação</p>
+					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_reclamacao_contratos.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Processo e Reclamação - Apenas APs</p>
+					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_reclamacao_contratos_AP.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<h2>Regiões Administrativas</h2>
+					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/RA.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Regiões Administrativas - Processo e TOI</p>
+					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/ra_scatter_toi_contratos.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Regiões Administrativas - Processo e Corte</p>
+					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/ra_scatter_corte_contratos.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Regiões Administrativas - Processo e Negativação</p>
+					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/ra_scatter_negativacao_contratos.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Regiões Administrativas - Processo e Reclamação</p>
+					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/ra_scatter_reclamacao_contratos.png" scrolling="no"></img>
+				  </section>
+				</section>
+                <section> <!-- Block of nested vertical slides -->
+				  <section>
+					<h2>Geografia do Conflito</h2>
+					<p>Isolinhas e Mapas de calor</p>
+				  </section>
+                    <section>
+					<img img width="1600px" height="800px" src="./figures/light/isagogicas.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Corte</p>
+					<img src="./figures/light/heatmaps_municipios/corte3.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Negativação</p>
+					<img src="./figures/light/heatmaps_municipios/negativacao3.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Reclamação</p>
+					<img src="./figures/light/heatmaps_municipios/reclamacao3.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">TOI</p>
+					<img src="./figures/light/heatmaps_municipios/toi3.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Corte - Detalhe em Sepetiba</p>
+					<img src="./figures/light/heatmaps_municipios/sepetiba_corte.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Negativação - Detalhe em Sepetiba</p>
+					<img src="./figures/light/heatmaps_municipios/sepetiba_negativacao.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">Reclamação - Detalhe em Sepetiba</p>
+					<img src="./figures/light/heatmaps_municipios/sepetiba_reclamacao.png" scrolling="no"></img>
+				  </section>
+				  <section>
+					<p style="color:#000000">TOI - Detalhe em Sepetiba</p>
+					<img src="./figures/light/heatmaps_municipios/sepetiba_toi.png" scrolling="no"></img>
+				  </section>
+				</section>
+                <section> <!-- Block of nested vertical slides -->
+                  <section>
+                    <h2>Geografia do Conflito</h2>
+                    <p>Bairros e Municípios</p>
+                  </section>
+                  <section>
+                    <p style="color:#000000">Bairros - Ocorrências de corte</p>
+                    <img width="1200px" height="700px"  src="./figures/light/mapas_bairros/PNGs/bairros_cortes.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <p style="color:#000000">Bairros - Ocorrências de negativação</p>
+                    <img width="1200px" height="700px"  src="./figures/light/mapas_bairros/PNGs/bairros_negativacoes.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <p style="color:#000000">Bairros - Ocorrências de processo</p>
+                    <img width="1200px" height="700px"  src="./figures/light/mapas_bairros/PNGs/bairros_processos.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <p style="color:#000000">Bairros - Ocorrências de reclamação</p>
+                    <img width="1200px" height="700px"  src="./figures/light/mapas_bairros/PNGs/bairros_reclamacoes.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <p style="color:#000000">Bairros - Ocorrências de TOI</p>
+                    <img width="1200px" height="700px"  src="./figures/light/mapas_bairros/PNGs/bairros_tois.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <p style="color:#000000">Municípios - Ocorrências de corte</p>
+                    <img width="1200px" height="700px"  src="./figures/light/mapas_municipios/PNGs/municipios_cortes.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <p style="color:#000000">Municípios - Ocorrências de negativação</p>
+                    <img width="1200px" height="700px"  src="./figures/light/mapas_municipios/PNGs/municipios_negas.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <p style="color:#000000">Municípios - Ocorrências de processo</p>
+                    <img width="1200px" height="700px"  src="./figures/light/mapas_municipios/PNGs/municipios_procs.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <p style="color:#000000">Municípios - Ocorrências de reclamação</p>
+                    <img width="1200px" height="700px"  src="./figures/light/mapas_municipios/PNGs/municipios_recs.png" scrolling="no"></img>
+                  </section>
+                  <section>
+                    <p style="color:#000000">Municípios - Ocorrências de TOI</p>
+                    <img width="1200px" height="700px"  src="./figures/light/mapas_municipios/PNGs/municipios_tois.png" scrolling="no"></img>
+                  </section>
+                </section>
+				<section> <!-- Block of nested vertical slides -->
+				  <section>
+					<h2>Genealogia do Conflito</h2>
+                    <p>Características dos eventos ofensores anteriores a um processo</p>
+				  </section>
 				  <section> <!--<section data-background="#F7F7F7">-->
 					<p style="color:#000000">Porcentagem do último evento ofensor antes do processo</p>
 					<img width="1200px" height="600px" src="./figures/light/tempo_notas_antes_processo/PNGs/qtd_tipos_nota_antes_processo.png" scrolling="no"></img>
 					</section>
-
 				  <section>
 					<p style="color:#000000">Dias entre eventos ofensores e processo</p>
 					<table style="color:#000000; width: 100%;">
@@ -76,8 +276,7 @@
 					  </tr>
 					</table>
 				  </section>
-
-				  <section>
+<!---			  <section>
 					<p style="color:#000000">Corte como última nota: tempo até o processo</p>
 					<table style="color:#000000" >
 					  <tr>
@@ -93,8 +292,7 @@
 						<td></td>
 					  </tr>
 					</table>
-				  </section>
-
+				  </section> --->
 				  <section>
 					<p style="color:#000000">Distribuição de dias entre eventos ofensores e processo</p>
 					<table style="color:#000000" >
@@ -111,241 +309,16 @@
 					</table>
 				  </section>
 				</section>
-
-				<!-- Block of nested vertical slides -->
-                <!-- Terceiro Slide - Segundo Bloco Vertical-->
-				<section>
-				  <section>
-					<h2>Análise de ocorrências por região</h2>
-					<p>Histogramas</p>
-				  </section>
-
-					  <section>
-						<img width="1200px" height="700px" src="./figures/light/hist_notas_processo_municipio/PNGs/notas_processo_municipios.png" scrolling="no"></img>
-					  </section>
-
-					  <section>
-						<img width="1200px" height="700px" src="./figures/light/resultados_analise_notas_regiao/Analise_Light_Notas_Geo_files/Analise_Light_Notas_Geo_5_0.png" scrolling="no"></img>
-					  </section>
-
-					  <section>
-						<img width="1200px" height="700px" src="./figures/light/resultados_analise_notas_regiao/Analise_Light_Notas_Geo_files/Analise_Light_Notas_Geo_6_0.png" scrolling="no"></img>
-					  </section>
-
-					  <section>
-						<img width="1200px" height="700px" src="./figures/light/resultados_analise_notas_regiao/Analise_Light_Notas_Geo_files/Analise_Light_Notas_Geo_7_0.png" scrolling="no"></img>
-					  </section>
-
-					  <section>
-						<img width="1200px" height="700px" src="./figures/light/resultados_analise_notas_regiao/Analise_Light_Notas_Geo_files/Analise_Light_Notas_Geo_8_0.png" scrolling="no"></img>
-					  </section>
-
-					  <section>
-						<img width="1200px" height="700px" src="./figures/light/resultados_analise_notas_regiao/Analise_Light_Notas_Geo_files/Analise_Light_Notas_Geo_9_0.png" scrolling="no"></img>
-					  </section>
-
-				</section>
-
-                <!-- Block of nested vertical slides -->
-                <!-- Quarto Slide - Terceiro Bloco Vertical-->
-				<section>
-				  <section>
-					<h2>Análise de ocorrências por região</h2>
-					<p>Gráficos de dispersão</p>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Municípios - Processo e TOI</p>
-					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_toi_contratos.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Processo e TOI - Apenas APs</p>
-					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_toi_contratos_AP.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Municípios - Processo e Corte</p>
-					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_corte_contratos.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Processo e Corte - Apenas APs</p>
-					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_corte_contratos_AP.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Municípios - Processo e Negativação</p>
-					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_negativacao_contratos.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Processo e Negativação - Apenas APs</p>
-					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_negativacao_contratos_AP.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Municípios - Processo e Reclamação</p>
-					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_reclamacao_contratos.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Processo e Reclamação - Apenas APs</p>
-					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/scatter_reclamacao_contratos_AP.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<h2>Regiões Administrativas</h2>
-					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/RA.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Regiões Administrativas - Processo e TOI</p>
-					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/ra_scatter_toi_contratos.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Regiões Administrativas - Processo e Corte</p>
-					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/ra_scatter_corte_contratos.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Regiões Administrativas - Processo e Negativação</p>
-					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/ra_scatter_negativacao_contratos.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Regiões Administrativas - Processo e Reclamação</p>
-					<img width="1200px" height="700px" src="./figures/light/sp_notas_processo_municipio/PNGs/ra_scatter_reclamacao_contratos.png" scrolling="no"></img>
-				  </section>
-
-				</section>
-
-                <!-- Block of nested vertical slides -->
-                <!-- Quinto Slide - Quarto Bloco Vertical-->
-				<section>
-				  <section>
-					<h2>Análise de ocorrências por região</h2>
-					<p>Mapas de calor</p>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Corte</p>
-					<img src="./figures/light/heatmaps_municipios/corte3.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Negativação</p>
-					<img src="./figures/light/heatmaps_municipios/negativacao3.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Reclamação</p>
-					<img src="./figures/light/heatmaps_municipios/reclamacao3.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">TOI</p>
-					<img src="./figures/light/heatmaps_municipios/toi3.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Corte - Detalhe em Sepetiba</p>
-					<img src="./figures/light/heatmaps_municipios/sepetiba_corte.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Negativação - Detalhe em Sepetiba</p>
-					<img src="./figures/light/heatmaps_municipios/sepetiba_negativacao.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">Reclamação - Detalhe em Sepetiba</p>
-					<img src="./figures/light/heatmaps_municipios/sepetiba_reclamacao.png" scrolling="no"></img>
-				  </section>
-
-				  <section>
-					<p style="color:#000000">TOI - Detalhe em Sepetiba</p>
-					<img src="./figures/light/heatmaps_municipios/sepetiba_toi.png" scrolling="no"></img>
-				  </section>
-
-				</section>
-
-                <!-- Block of nested vertical slides -->
-                <!-- Sexto Slide - Quinto Bloco Vertical-->
-                <section>
+                <section> <!-- Block of nested vertical slides -->
                   <section>
-                    <h2>Análise de ocorrências por região</h2>
-                    <p>Bairros e Municípios</p>
+                    <h2>Genealogia do Conflito</h2>
+                    <p>Análise das interações dos clientes com a Light</p>
                   </section>
-
-                  <section>
-                    <p style="color:#000000">Bairros - Ocorrências de corte</p>
-                    <img width="1200px" height="700px"  src="./figures/light/mapas_bairros/PNGs/bairros_cortes.png" scrolling="no"></img>
-                  </section>
-
-                  <section>
-                    <p style="color:#000000">Bairros - Ocorrências de negativação</p>
-                    <img width="1200px" height="700px"  src="./figures/light/mapas_bairros/PNGs/bairros_negativacoes.png" scrolling="no"></img>
-                  </section>
-
-                  <section>
-                    <p style="color:#000000">Bairros - Ocorrências de processo</p>
-                    <img width="1200px" height="700px"  src="./figures/light/mapas_bairros/PNGs/bairros_processos.png" scrolling="no"></img>
-                  </section>
-
-                  <section>
-                    <p style="color:#000000">Bairros - Ocorrências de reclamação</p>
-                    <img width="1200px" height="700px"  src="./figures/light/mapas_bairros/PNGs/bairros_reclamacoes.png" scrolling="no"></img>
-                  </section>
-
-                  <section>
-                    <p style="color:#000000">Bairros - Ocorrências de TOI</p>
-                    <img width="1200px" height="700px"  src="./figures/light/mapas_bairros/PNGs/bairros_tois.png" scrolling="no"></img>
-                  </section>
-
-                  <section>
-                    <p style="color:#000000">Municípios - Ocorrências de corte</p>
-                    <img width="1200px" height="700px"  src="./figures/light/mapas_municipios/PNGs/municipios_cortes.png" scrolling="no"></img>
-                  </section>
-
-                  <section>
-                    <p style="color:#000000">Municípios - Ocorrências de negativação</p>
-                    <img width="1200px" height="700px"  src="./figures/light/mapas_municipios/PNGs/municipios_negas.png" scrolling="no"></img>
-                  </section>
-
-                  <section>
-                    <p style="color:#000000">Municípios - Ocorrências de processo</p>
-                    <img width="1200px" height="700px"  src="./figures/light/mapas_municipios/PNGs/municipios_procs.png" scrolling="no"></img>
-                  </section>
-
-                  <section>
-                    <p style="color:#000000">Municípios - Ocorrências de reclamação</p>
-                    <img width="1200px" height="700px"  src="./figures/light/mapas_municipios/PNGs/municipios_recs.png" scrolling="no"></img>
-                  </section>
-
-                  <section>
-                    <p style="color:#000000">Municípios - Ocorrências de TOI</p>
-                    <img width="1200px" height="700px"  src="./figures/light/mapas_municipios/PNGs/municipios_tois.png" scrolling="no"></img>
-                  </section>
-
-                </section>
-
-                <!-- Block of nested vertical slides -->
-                <!-- Sétimo Slide - Sexto Bloco Vertical-->
-                <section>
-
-                  <section>
-                    <h2>Análise de interações de clientes</h2>
-                    <p>Permite avaliar a relação entre interações de um mesmo cliente.</p>
-                  </section>
-
                   <section>
                     <p style="color:#000000">Clientes Litigantes</p>
                     <iframe	width="1200px" height="900px" src="./light_vis7.html" scrolling="no" >
                     </iframe>
                   </section>
-
                   <section>
                     <p style="color:#000000">Gráfico de Pares - Quantidade de Pares</br> </p>
                     </br>
@@ -355,17 +328,6 @@
                     <iframe	width="1200px" height="900px" src="./light_vis3.html" scrolling="yes" >
                     </iframe>
                   </section>
-
-                  <section>
-                    <p style="color:#000000">Gráfico de Pares - Quantidade de Contratos</p>
-                    </br>
-                    <p style="color:#000000; font-size:75%">Direção dos eventos </br>
-                    <img width="300px" height="30px" style="border: 0;" height="100px" src="./figures/light/ArrowRight.svg" scrolling="no"></img>
-                    </p>
-                    <iframe	width="1200px" height="900px" src="./light_vis4.html" scrolling="no" >
-                    </iframe>
-                  </section>
-
                   <section>
                     <p style="color:#000000">Gráfico de Pares - Quantidade de Pares</p>
                     </br>
@@ -375,7 +337,15 @@
                     <iframe	width="1000px" src="./light_vis5.html" scrolling="no" >
                     </iframe>
                   </section>
-
+                  <section>
+                    <p style="color:#000000">Gráfico de Pares - Quantidade de Contratos</p>
+                    </br>
+                    <p style="color:#000000; font-size:75%">Direção dos eventos </br>
+                    <img width="300px" height="30px" style="border: 0;" height="100px" src="./figures/light/ArrowRight.svg" scrolling="no"></img>
+                    </p>
+                    <iframe	width="1200px" height="900px" src="./light_vis4.html" scrolling="no" >
+                    </iframe>
+                  </section>
                   <section>
                     <p style="color:#000000">Gráfico de Pares - Quantidade de Contratos</p>
                     </br>
@@ -385,21 +355,34 @@
                     <iframe	width="1000px" src="./light_vis6.html" scrolling="no" >
                     </iframe>
                   </section>
-
                   <section>
                     <p style="color:#000000">Regras de associação - Matriz</p>
                     <img width="832px" height="700px" src="./figures/light/bubblechart_regras_associacao/PNGs/bubbles_chart.png" scrolling="no"></img>
                   </section>
-
                   <section>
                     <p style="color:#000000">Regras de associação - Tabela</p>
-                    <iframe	width="1200px" height="700px" src="./light_vis8.html" scrolling="no" >
+                    <iframe	width="2000px" height="1400px" src="./light_vis8.html" scrolling="no" >
                     </iframe>
                   </section>
-
                 </section>
-
-
+                <section><!-- Block of nested vertical slides -->
+                  <section>
+                      <h2>Simulador de Litígios</h2>
+                      <p>Avaliação de cenários para tomada de decisões.<p>
+                  </section>
+                  <section>
+                      <h3>Processo de modelagem e parametrização<h3>
+                      <img width="1200px" height="700px" src="figures/light/simul.png">
+                  </section>
+                  <section>
+                      <h3>Interface web<h3>
+                      <img width="1200px" height="700px" src="figures/light/Simulador.jpeg">
+                  </section>
+                  <section>
+                      <h3>Simulação Regional</h3>
+                      <img width="1200px" height="700px" src="figures/light/Simulador1.jpeg">
+                  </section>
+                </section>
 
 		</div>
 		<script src="lib/js/head.min.js"></script>
